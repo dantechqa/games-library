@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import Home from './Home';
 import Reacteroids from './Components/Reacteroids/src/Reacteroids.js';
 import './App.css';
+import styles from './Components/Reacteroids/src/style.css';
 class NavBar extends Component{
     render(){
         return(
@@ -10,8 +11,8 @@ class NavBar extends Component{
                 <Router>
                     <div>
                         <ul>
-                            <li><NavLink className="NavLink" to="/">Home</NavLink></li>
-                            <li><NavLink className="NavLink" to="/Reacteroids">Reacteroids</NavLink></li>
+                            <li><NavLink to="/">Home</NavLink></li>
+                            <li><NavLink style={styles} to="/Reacteroids">Reacteroids</NavLink></li>
                         </ul>
                     </div>
                     <Route exact path="/" component={Home}/>

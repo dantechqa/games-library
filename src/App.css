@@ -3,7 +3,6 @@
 }
 
 canvas {
-  overflow-wrap: break-word;
   max-width: -webkit-fill-available;
 }
 

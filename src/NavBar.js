@@ -21,5 +21,6 @@ class NavBar extends Component{
             </nav>
         )
     }
+    // test line
 }
 export default NavBar;

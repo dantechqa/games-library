@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 import Home from './Home';
-import Reacteroids from './Components/Reacteroids/src/Reacteroids.js';
+import Reacteroids from './components/reacteroids/src/Reacteroids.js';
 import './App.css';
-import styles from './Components/Reacteroids/src/style.css';
+import styles from './components/reacteroids/src/style.css';
 class NavBar extends Component{
     render(){
         return(

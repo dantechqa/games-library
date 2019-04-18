@@ -19,7 +19,7 @@ export class Reacteroids extends Component {
     this.state = {
       screen: {
         width: window.innerWidth,
-        height: window.innerHeight,
+        height: window.innerHeight/1.25,
         ratio: window.devicePixelRatio || 1,
       },
       context: null,
@@ -45,7 +45,7 @@ export class Reacteroids extends Component {
     this.setState({
       screen : {
         width: window.innerWidth,
-        height: window.innerHeight,
+        height: window.innerHeight/1.25,
         ratio: window.devicePixelRatio || 1,
       }
     });

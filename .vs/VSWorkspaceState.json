@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
     "\\src",
-    "\\src\\components"
+    "\\src\\images"
   ],
-  "SelectedNode": "\\src\\NavBar.js",
+  "SelectedNode": "\\src\\images\\ColourFood.jpg",
   "PreviewInSolutionExplorer": false
 }
